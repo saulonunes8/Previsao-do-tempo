@@ -80,9 +80,10 @@ body {
     margin-top: 20px;
 }
 
-@media screen and (max-width:400px){
-    
+@media screen and (max-width: 450px) and (orientation: portrait) {
+
     .input-city {
-        font-size: 13px;
+        font-size: 15px;
+        width: 82%;
     }
 }
